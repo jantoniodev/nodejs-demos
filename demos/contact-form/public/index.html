@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 350px;;
+            gap: 1rem;
+        }
+
+        input, textarea {
+            padding: 0.25rem;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="/api/contact">
+        <h1>Contact Form Demo</h1>
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="What you want to tell me" rows="10"></textarea>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

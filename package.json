@@ -1,0 +1,11 @@
+{
+    "name": "nodejs-demos",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces": [
+        "demos/*"
+    ],
+    "dependencies": {
+        "express": "^4.19.2"
+    }
+}

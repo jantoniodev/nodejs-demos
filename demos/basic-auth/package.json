@@ -1,0 +1,13 @@
+{
+    "name": "basic-auth",
+    "version": "1.0.0",
+    "main": "index.js",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "start": "node --watch index.js"
+    },
+    "dependencies": {
+        "cookie-parser": "^1.4.6"
+    }
+}
