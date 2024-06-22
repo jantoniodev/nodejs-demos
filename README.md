@@ -29,3 +29,4 @@ npm install [dependency] -w=hello-world
 | error-handling | Se crea un middleware para manejar excepciones, se retorna un json y se loggea el error con su stack. Además se usa un identificador unico para hacer seguimiento del error sin exponer información sensible |
 | contact-form | Se explora como se recibe información desde un formulario. Se utiliza el middleware express.urlencoded |
 | basic-auth | Se realiza una autenticación sencilla con cookies y se generá una ruta protegida a la que solo se puede acceder si se está autenticado |
+| jwt-auth | Se realiza una autenticación basada en tokens JWT, se utiliza la librería jsonwebtoken para crear y verificar los mismos. |
